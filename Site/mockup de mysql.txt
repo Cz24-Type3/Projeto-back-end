@@ -1,22 +1,3 @@
-Relação de itens na loja:
-Turbina, mangueiras, chicote,
-parafusos, mangote, pistão,
-biela, sensor de pressão, Fueltech,
-parafuso de volante, Nitrometano, Carburadores,
-Bomba de combustível, abraçadeiras,
-bico injetor, Anel de pistão,
-Jogo de prisioneiro, Coletor Weber, Retentor,
-Bronzina, Bucha de comando, embreagem,
-Virabrequim, parafuso de biela, Junta de cabeçote, Bomba de óleo,
-Dosador de combustível,
-Limitador de giro (3step), contagiros, wideband,
-manômetro agua, manômetro combustível, manômentro Óleo, Shift light.
-
-
-
-
-
-
 
 CREATE DATABASE kali_racers;
 USE kali_racers;
@@ -43,6 +24,7 @@ CREATE TABLE tipo(
     id_tipo INT PRIMARY KEY AUTO_INCREMENT,
     tipo_prod ENUM('turbinas', 'perifericos', 'alimentacao', 'power train') NOT NULL
 );
+
 
 CREATE TABLE produtos (
     id_prod INT AUTO_INCREMENT PRIMARY KEY,
